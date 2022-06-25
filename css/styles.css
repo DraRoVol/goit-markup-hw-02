@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #ffffff;
+    --accent-color: #2196F3;
+    --common-color: #2F303A;
+    --main-fon: 'Roboto', sans-serif;
+    --secondary-fon: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-fon);
+}
+
+
+.list {
+    list-style: none;
+    padding: 0%;
+}
+
+/* Header */
+
+.header {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 25px 0px 25px 215px;
+
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+
+    background-color: var(--secondary-color);
+}
+
+.logo {
+    color: var(--accent-color);
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 93px;
+    font-family: var(--secondary-fon);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio{
+    color: black;
+}
+
+.navigation {
+    margin-right: 330px;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.navigation-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 32px 0;
+    line-height: 1.14;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts {  
+    display: flex;
+
+    color: #757575;
+}
+
+.contacts-link {
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 32px 0;
+    line-height: 1.14;
+
+    color: #757575;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Footer */
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    margin: 0 auto;
+    background-color: var(--common-color);
+}
+
+.address {
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
+.footer-logo {
+    width: 145px;
+    height: 30px;
+    text-decoration: none;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+}
+
+.logo-part {
+    color: var(--secondary-color);
+}
+
+.footer-text {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.footer-item {
+    text-decoration: none;
+    color: var(--secondary-color);
+    opacity: 60%;
+}
+
+
